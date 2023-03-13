@@ -24,7 +24,7 @@ import mock
 import numpy as np
 from recsim.agents import cluster_bandit_agent
 from recsim.agents.layers import cluster_click_statistics
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class ClusterClickStatisticsTest(tf.test.TestCase):

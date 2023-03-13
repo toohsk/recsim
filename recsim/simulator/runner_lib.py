@@ -28,7 +28,7 @@ import gin.tf
 from gym import spaces
 import numpy as np
 from recsim.simulator import environment
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 flags.DEFINE_bool(

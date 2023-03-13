@@ -23,7 +23,7 @@ from gym import spaces
 import mock
 from recsim.agents import cluster_bandit_agent
 from recsim.agents.layers import fixed_length_history
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class FixedLengthHistoryTest(tf.test.TestCase):

@@ -20,7 +20,7 @@ import gin.tf
 from gym import spaces
 from recsim import agent as abstract_agent
 from recsim.agents.dopamine import dqn_agent
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 @gin.configurable

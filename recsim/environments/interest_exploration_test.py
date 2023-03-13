@@ -20,7 +20,7 @@ from __future__ import division
 from __future__ import print_function
 import numpy as np
 from recsim.environments import interest_exploration
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class InterestExplorationTest(tf.test.TestCase):

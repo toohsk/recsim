@@ -19,7 +19,7 @@ from gym import spaces
 import numpy as np
 from recsim.agents import tabular_q_agent
 from recsim.testing import test_environment as te
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class TabularQAgentTest(tf.test.TestCase):

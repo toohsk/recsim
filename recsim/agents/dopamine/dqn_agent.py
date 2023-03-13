@@ -25,7 +25,7 @@ from dopamine.replay_memory import circular_replay_buffer
 import gin.tf
 from gym import spaces
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 DQNNetworkType = collections.namedtuple('dqn_network', ['q_values'])
 

@@ -18,7 +18,7 @@ import numpy as np
 from recsim import agent as abstract_agent
 from recsim import choice_model
 from recsim.agents.dopamine import dqn_agent
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 def compute_probs_tf(slate, scores_tf, score_no_click_tf):

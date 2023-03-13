@@ -19,7 +19,7 @@ import numpy as np
 from recsim.agents import cluster_bandit_agent
 from recsim.agents.layers import cluster_click_statistics
 from recsim.environments import interest_exploration as ie
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class UCB1AgentTest(tf.test.TestCase):

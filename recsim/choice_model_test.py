@@ -18,7 +18,7 @@
 import numpy as np
 from recsim import choice_model
 from recsim.environments import interest_evolution as evolution
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class SoftmaxTest(tf.test.TestCase):
